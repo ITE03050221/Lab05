@@ -1,4 +1,4 @@
-all:socket.c
-	g++ socket.c -o socket
+all:socket_receive.c
+	g++ socket_receive.c -o socket_receive
 clean:
-	rm -f socket
+	rm -f socket_receive
